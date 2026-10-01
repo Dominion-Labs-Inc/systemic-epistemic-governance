@@ -33,6 +33,8 @@ Both ablations were re-run end to end on the live substrate on 18 September 2026
 
 Each file is the manifest its run wrote, unedited.
 
+**Revision, 1 October 2026.** A held-out case the rule does not apply to is no longer counted as a confirmation: a rule that makes no prediction about a case is not tested by it. One of the correctly constrained rule's two confirmations above was such a case. Re-run under the revised validation, the correctly constrained rule is validated on 1 independent confirmation and authorizes its one act; the over-broad rule is again refuted and authorizes nothing; with the gate bypassed it again authorizes 2 acts, 1 of which the world refuses ([`data/gov-ablation-01-2026-10-01.json`](data/gov-ablation-01-2026-10-01.json)). The row above is kept as it was measured on 18 September.
+
 A note on the model condition, recorded in both manifests: model-freedom was originally a run-time policy
 that counted and blocked attempts to consult a model. That guard and every model entry point it guarded
 have since been removed, so these runs had no model available to consult rather than one held back.
